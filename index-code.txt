@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wild Berry Photography</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <h1>This is a Heading</h1>
+  <p>This is a paragraph.</p>
+  <p>This is a second paragraph.</p>
+  <h2>My photography</h2>
+
+  <!--About-->
+  <div class="column">
+    <img src="/images/IMG_0122.JPG" alt="photo">
+    <h2>About</h2>
+    <p>Some information about the subject goes here.</p>
+    <p>Additional details about the subject.</p>
+  </div>
+
+  <!--Facts-->
+  <div class="column">
+    <img src="/images/IMG_0148.JPG" alt="">
+    <h2>Facts</h2>
+    <p>Interesting facts about the subject.</p>
+    <p>More facts can be added here.</p>
+  </div>
+
+  <!-- Skills Column -->
+  <div class="column">
+    <img src="/images/IMG_0153.JPG" alt="">
+    <h2>Skills</h2>
+    <ul>
+      <li>Skill 1</li>
+      <li>Skill 2</li>
+      <li>Skill 3</li>
+    </ul>
+  </div>
+
+  <!-- youtube video -->
+  <div class="column">
+    <h2> My youtube video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hP3kpsy5EnA?si=_xvvug6rTteYiOpz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+
+  <!-- Audio Element -->
+  <div class="column">
+    <h2>Audio</h2>
+    <audio controls autoplay loop>
+      <source src="/audio/BMW Warning Chime (1).mp3" type="audio/mp3">
+    </audio>
+    <img src="/images/kisspng-2018-bmw-3-series-car-bmw-x3-bmw-i-bmw-m1-logo-5b4ff21bcee538.0268729015319659798475.jpg" alt="">
+  </div>
+
+  <!-- Pridedam snippet-example-1.html sukurta snippet'a -->
+  <object data="snippet-example-1.html"></object>
+
+</body>
+
+</html>
